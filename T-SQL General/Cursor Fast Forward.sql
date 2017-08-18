@@ -8,7 +8,8 @@ BEGIN FETCH MyCursor01 INTO
   @Colm
 
   IF @@FETCH_STATUS <> 0 BREAK
-
+  
+  --Do the work here
   PRINT(@Colm)
   
 END -- MyCursor01
